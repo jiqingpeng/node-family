@@ -14,4 +14,8 @@
 ### cd nodevue  //到nodevue这一层
 ### cnpm install  //下载全部资源没有淘宝镜像的用  npm install
 ### npm run dev  //开启vue
-
+### 想要看效果的同学，最起码你的电脑得开三个命令行，mongodb数据库一个，vue一个,express一个。
+**express简单入门教程**  
+[express简单入门教程链接](http://www.jqpblog.site/2018/01/17/node-mongodb-express-vue%E5%85%A8%E6%A0%88%E4%B9%8B%E6%97%85%E4%B9%8Bexpress/)
+**mongodb数据库安装教程**  
+[mongodb数据库安装教程链接](http://www.jqpblog.site/2018/01/17/node-mongodb-express-vue%E5%85%A8%E6%A0%88%E4%B9%8B%E6%97%85%E4%B9%8Bexpress/)
