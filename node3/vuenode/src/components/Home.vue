@@ -2,21 +2,19 @@
 	<div>
 		<Nhead :message="message"></Nhead>
 		<ul class="msg">
-			
-				<li v-for="item in items">
-					<p class="msg-nav">
-							<span>{{ item.user }}</span>
-							<span>{{ item.type }}</span>
+			<li v-for="item in items">
+				<p class="msg-nav">
+						<span>{{ item.user }}</span>
+						<span>{{ item.type }}</span>
+				</p>
+				<a :href="item.url">
+					<p class="msg-tit">
+						<span>{{ item.tit }}</span>
 					</p>
-					<a :href="item.url">
-						<p class="msg-tit">
-							<span>{{ item.tit }}</span>
-						</p>
-						<p class="msg-cont">{{ item.cont }}</p>
-					</a>
-		    	</li>
-		    
-  		</ul>
+					<p class="msg-cont">{{ item.cont }}</p>
+				</a>
+		    </li>
+		</ul>
   		<div class="message" :class="{ active: isLog }">
   			<span>还没有登录，快去我里面登录吧</span>
   		</div>

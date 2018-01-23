@@ -1,3 +1,13 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  position: relative;
+}
+ul li{
+  list-style-type: none;
+}
 .App {
   text-align: center;
 }
@@ -25,4 +35,63 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.My{
+  color:red;
+}
+.rhead{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:40px;
+  position: fixed;
+  left:0;
+  top:0;
+}
+.rfood{
+  width:100%;
+  position: fixed;
+  left:0;
+  bottom:0;
+  height:40px;
+}
+.rfood .rfood-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:40px;
+}
+.spabet{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.spacen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list{
+  width:100%;
+  position: fixed;
+  left:0;
+  top:40px;
+  bottom:40px;
+  overflow-y: auto;
+}
+.list .list-item{
+  margin-top:10px;
+}
+.my-cont{
+  position: fixed;
+  top:40px;
+  bottom:40px;
+  left:0;
+}
+.logout{
+  position: fixed;
+  top:120px;
+  
+  left:0;
 }

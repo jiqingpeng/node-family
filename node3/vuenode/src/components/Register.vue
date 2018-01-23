@@ -45,6 +45,4 @@
 			width 100%
 			height 30px
 			margin 3% 0
-		
-
 </style>
