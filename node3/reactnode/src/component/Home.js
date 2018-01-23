@@ -9,7 +9,7 @@ class Home extends Component {
     super(props);
     this.state = {
       isLoggedIn: false,
-      msg: "22222"
+      msg: "11111"
     };
     this.checkLogin();
   }
